@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		4A80F6861F0F97C3009A3926 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A80F6851F0F97C3009A3926 /* main.m */; };
 		4A80F6891F0F97C3009A3926 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A80F6881F0F97C3009A3926 /* AppDelegate.m */; };
-		4A80F68C1F0F97C3009A3926 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A80F68B1F0F97C3009A3926 /* ViewController.m */; };
 		4A80F68F1F0F97C3009A3926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A80F68D1F0F97C3009A3926 /* Main.storyboard */; };
 		4A80F6911F0F97C3009A3926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A80F6901F0F97C3009A3926 /* Assets.xcassets */; };
 		4A80F6941F0F97C3009A3926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A80F6921F0F97C3009A3926 /* LaunchScreen.storyboard */; };
+		4A80F69E1F0F9936009A3926 /* ObjCClassForServerCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A80F69D1F0F9936009A3926 /* ObjCClassForServerCommunication.m */; };
+		4A80F6A31F0F9AAE009A3926 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A80F6A21F0F9AAE009A3926 /* LoginViewController.m */; };
+		E59C24100E8DA9D3FB37547C /* libPods-ObjCDelegate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD0F84844286D35D71A880E /* libPods-ObjCDelegate.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,17 @@
 		4A80F6851F0F97C3009A3926 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A80F6871F0F97C3009A3926 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A80F6881F0F97C3009A3926 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A80F68A1F0F97C3009A3926 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A80F68B1F0F97C3009A3926 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A80F68E1F0F97C3009A3926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A80F6901F0F97C3009A3926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A80F6931F0F97C3009A3926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A80F6951F0F97C3009A3926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A80F69C1F0F9936009A3926 /* ObjCClassForServerCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCClassForServerCommunication.h; sourceTree = "<group>"; };
+		4A80F69D1F0F9936009A3926 /* ObjCClassForServerCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCClassForServerCommunication.m; sourceTree = "<group>"; };
+		4A80F6A11F0F9AAE009A3926 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4A80F6A21F0F9AAE009A3926 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		57D4A41F8B3BFEBF0407E5A2 /* Pods-ObjCDelegate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCDelegate.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCDelegate/Pods-ObjCDelegate.release.xcconfig"; sourceTree = "<group>"; };
+		761A32B94EE28B2707CB73BF /* Pods-ObjCDelegate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCDelegate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCDelegate/Pods-ObjCDelegate.debug.xcconfig"; sourceTree = "<group>"; };
+		BAD0F84844286D35D71A880E /* libPods-ObjCDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCDelegate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59C24100E8DA9D3FB37547C /* libPods-ObjCDelegate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 			children = (
 				4A80F6831F0F97C3009A3926 /* ObjCDelegate */,
 				4A80F6821F0F97C3009A3926 /* Products */,
+				CF1F1C7BD71E36212C012CC2 /* Pods */,
+				995FED171F931AE804A4B914 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +68,9 @@
 		4A80F6831F0F97C3009A3926 /* ObjCDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				4A80F6871F0F97C3009A3926 /* AppDelegate.h */,
-				4A80F6881F0F97C3009A3926 /* AppDelegate.m */,
-				4A80F68A1F0F97C3009A3926 /* ViewController.h */,
-				4A80F68B1F0F97C3009A3926 /* ViewController.m */,
+				4A80F6A41F0F9F05009A3926 /* AppDelegate */,
+				4A80F69B1F0F98DE009A3926 /* Models */,
+				4A80F6A01F0F9A98009A3926 /* ViewController */,
 				4A80F68D1F0F97C3009A3926 /* Main.storyboard */,
 				4A80F6901F0F97C3009A3926 /* Assets.xcassets */,
 				4A80F6921F0F97C3009A3926 /* LaunchScreen.storyboard */,
@@ -79,6 +88,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4A80F69B1F0F98DE009A3926 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A80F69C1F0F9936009A3926 /* ObjCClassForServerCommunication.h */,
+				4A80F69D1F0F9936009A3926 /* ObjCClassForServerCommunication.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4A80F6A01F0F9A98009A3926 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A80F6A51F0F9F2C009A3926 /* LoginViewController */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		4A80F6A41F0F9F05009A3926 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4A80F6871F0F97C3009A3926 /* AppDelegate.h */,
+				4A80F6881F0F97C3009A3926 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4A80F6A51F0F9F2C009A3926 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A80F6A11F0F9AAE009A3926 /* LoginViewController.h */,
+				4A80F6A21F0F9AAE009A3926 /* LoginViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		995FED171F931AE804A4B914 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAD0F84844286D35D71A880E /* libPods-ObjCDelegate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1F1C7BD71E36212C012CC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				761A32B94EE28B2707CB73BF /* Pods-ObjCDelegate.debug.xcconfig */,
+				57D4A41F8B3BFEBF0407E5A2 /* Pods-ObjCDelegate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A80F6981F0F97C3009A3926 /* Build configuration list for PBXNativeTarget "ObjCDelegate" */;
 			buildPhases = (
+				7621BB08E3DCA9DAF82FE616 /* [CP] Check Pods Manifest.lock */,
 				4A80F67D1F0F97C3009A3926 /* Sources */,
 				4A80F67E1F0F97C3009A3926 /* Frameworks */,
 				4A80F67F1F0F97C3009A3926 /* Resources */,
+				F369FA8CCDCE97E3220C343B /* [CP] Embed Pods Frameworks */,
+				6FE701A0AF168127B94A7CBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,7 +174,6 @@
 				TargetAttributes = {
 					4A80F6801F0F97C3009A3926 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = MR2PX4Y62Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -146,12 +209,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FE701A0AF168127B94A7CBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjCDelegate/Pods-ObjCDelegate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7621BB08E3DCA9DAF82FE616 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F369FA8CCDCE97E3220C343B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjCDelegate/Pods-ObjCDelegate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A80F67D1F0F97C3009A3926 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A80F68C1F0F97C3009A3926 /* ViewController.m in Sources */,
+				4A80F6A31F0F9AAE009A3926 /* LoginViewController.m in Sources */,
+				4A80F69E1F0F9936009A3926 /* ObjCClassForServerCommunication.m in Sources */,
 				4A80F6891F0F97C3009A3926 /* AppDelegate.m in Sources */,
 				4A80F6861F0F97C3009A3926 /* main.m in Sources */,
 			);
@@ -220,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -271,10 +383,12 @@
 		};
 		4A80F6991F0F97C3009A3926 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 761A32B94EE28B2707CB73BF /* Pods-ObjCDelegate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MR2PX4Y62Y;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ObjCDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ObjCDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +397,12 @@
 		};
 		4A80F69A1F0F97C3009A3926 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D4A41F8B3BFEBF0407E5A2 /* Pods-ObjCDelegate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MR2PX4Y62Y;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ObjCDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ObjCDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +428,7 @@
 				4A80F69A1F0F97C3009A3926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

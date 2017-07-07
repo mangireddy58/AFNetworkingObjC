@@ -16,7 +16,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    if(self.window == nil)
+        self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    
+    if(self.navigationController == nil)
+        self.navigationController = [[UINavigationController alloc]init];
+    
+    if(self.storyboard == nil)
+        self.storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    self.navigationController.navigationBarHidden = YES;
+    
+    [self.navigationController pushViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"] animated:NO];
+    
+    [self.window setRootViewController:self.navigationController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
